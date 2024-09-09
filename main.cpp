@@ -151,23 +151,22 @@ int main() {
         cout << "Enter the index of the integer you would like to remove: ";
         int indx;
         while (true) {
-            try {
-               cin >> indx;
-               if (cin.fail() || indx < 0) {
-                  throw runtime_error("Invalid input. Please enter a positive integer.");
-                  }
-               break;
-               }
-            catch (const runtime_error& e) {
-               cout << e.what() << endl;
-               cin.clear();
-               cin.ignore(numeric_limits<streamsize>::max(), '\n');
-               continue;
-            }
-         }
-        cin >> indx;
-        myArray = removeInt(myArray, indx);
+           try {
+              cin >> indx;
+              if (cin.fail()) {
+                 throw runtime_error("Invalid input. Please enter a positive integer.");
+              }
+              break;
+           }
+           catch (const runtime_error& e) {
+              cout << e.what() << endl;
+              cin.clear();
+              cin.ignore(numeric_limits<streamsize>::max(), '\n');
+              continue;
+           }
         }
+        myArray = removeInt(myArray, indx);
+     }
      else if (choice == 5) {
         printArr(myArray);
         }
