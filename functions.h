@@ -6,6 +6,7 @@
 
 using namespace std;
 
+// STRUCTURE to hold size & capacity of the array
 struct arrayStruct {
   int Size = 100, Capacity = 100;
   int *arr = new int[Capacity];
@@ -19,13 +20,12 @@ void printArr(arrayStruct arr1);
 // POST: Search array for int x, return index if number present, else return -1
 int findInt(arrayStruct arr1, int x);
 
-// PRE: User assign int r (replace), array initialized, & index of desired int
-// to replace POST: Modify value of an integer in array at specific index,
-// display old and new value
+// PRE: User assign int r (replace), array initialized, & index of desired int to replace 
+// POST: Modify value of an integer in array at specific index, display old and new value
 void replaceInt(arrayStruct arr1, int replace, int i);
 
 // PRE: Array initialized, user assigned int add
-// POST: Check if space to add on array, if space then add int a to end of array
+// POST: IF space then add int a to end of array, ELSE create new array & COPY old 
 arrayStruct addInt(arrayStruct arr1, int a);
 
 // PRE: Array initialized, user assigned delete indx
