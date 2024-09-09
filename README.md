@@ -28,3 +28,12 @@ DISPLAY ALTERED ARRAY & QUIT
 
 
 <img width="467" alt="Screen Shot 2024-09-09 at 4 20 55 PM" src="https://github.com/user-attachments/assets/95e62fcc-87de-4446-a5ca-59136e558674">
+
+
+
+EXCEPTION HANDLING
+
+
+<img width="648" alt="Screen Shot 2024-09-09 at 4 43 09 PM" src="https://github.com/user-attachments/assets/c98825af-7455-4d3c-85cb-6d3baf15a214">
+<img width="542" alt="Screen Shot 2024-09-09 at 4 43 18 PM" src="https://github.com/user-attachments/assets/88e4829d-9e42-4e43-beff-32f751e326ac">
+<img width="440" alt="Screen Shot 2024-09-09 at 4 43 29 PM" src="https://github.com/user-attachments/assets/08320645-63e7-43b6-8609-49435392c046">
