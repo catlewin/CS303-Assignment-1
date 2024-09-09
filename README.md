@@ -1,4 +1,11 @@
 # CS303-Assignment-1
+Program ran in replit: https://replit.com/@clfkd/CS303-Assignment-1 
+
+Program initializes array with A1input.txt elements.
+Program iterates over menu of choices to alter and access array.
+Choice executes based on user input.
+
+
 CHECK IF ELEMENT IN ARRAY
 
 
